@@ -1,6 +1,8 @@
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+import withPWA from '../components/hoc/withPWA'
+
+const Home = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -40,3 +42,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default withPWA(Home)
