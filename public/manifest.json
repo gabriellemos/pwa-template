@@ -3,6 +3,7 @@
   "short_name": "Next PWA",
   "theme_color": "#ffffff",
   "background_color": "#004740",
+  "description": "An example of PWA with next.js",
   "display": "fullscreen",
   "orientation": "portrait",
   "scope": "/",

@@ -11,8 +11,8 @@ export default function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
-        <meta name="description" content="Description" />
-        <meta name="keywords" content="Keywords" />
+        <meta name="description" content="An example of PWA with next.js" />
+        <meta name="keywords" content="pwa, react, next, nextjs" />
         <title>Next.js PWA Example</title>
 
         <link rel="manifest" href="/manifest.json" />

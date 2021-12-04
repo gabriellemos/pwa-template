@@ -5,7 +5,12 @@ const withPWA = (Component) => {
     const [evt, setEvt] = useState(undefined)
 
     useEffect(() => {
+      console.log("TESTE")
+    }, [])
+
+    useEffect(() => {
       window.addEventListener('beforeinstallprompt', (evt) => {
+        console.log('beforeinstallprompt', evt)
         evt.preventDefault()
         setEvt(evt)
       })
